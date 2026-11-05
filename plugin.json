@@ -1,0 +1,25 @@
+{
+  "id": "lyricvideo",
+  "name": "歌词视频",
+  "version": "1.0.0",
+  "api_version": 2,
+  "summary": "把歌词自动渲染成竖屏视频（ffmpeg 合成），用于抖音/汽水分发。",
+  "author": "604665656",
+  "license": "MIT",
+  "homepage": "https://github.com/604665656/qishui-plugin-lyricvideo",
+  "entry": "lyricvideo.plugin:LyricvideoPlugin",
+  "tab": {
+    "group": "创作",
+    "title": "歌词视频",
+    "order": 50
+  },
+  "needs": [
+    "api",
+    "auth",
+    "store"
+  ],
+  "standalone": "lyricvideo/__main__.py",
+  "update": {
+    "feed": ""
+  }
+}
